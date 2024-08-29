@@ -15,17 +15,12 @@ public class Conditional {
             int ran = (int)(Math.random()*100+1);
             numeros[i] = ran;
         }
-       // for (int i = 0 ; i < numeros.length; i++){
-         //   System.out.println("numeros ganadores: " + numeros[i] + "\n");
-       // }
 
         for(int i = 0 ; i < numerosUsuarios.length; i++){
             System.out.println("ingrese numero " + (i + 1) + ": " );
             numerosUsuarios[i] = sc.nextInt();
         }
-       // for(int i = 0 ; i < numerosUsuarios.length; i++){
-         //   System.out.println("numeros ingresados: " + numerosUsuarios[i] + "\n");
-       // }
+
         if(!Arrays.equals(numeros, numerosUsuarios)){
             Map<Integer, Integer> numerosRepetidos = new HashMap<>();
 
