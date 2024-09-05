@@ -6,7 +6,7 @@ public class RegistroEstudiante {
     int age;
     double score;
     public static void main(String[] args){
-        System.out.println("seleccione una opcion: " + "\n");
+
     }
 
     public void StudentRegistration(){
@@ -15,4 +15,7 @@ public class RegistroEstudiante {
     public void CurseRegistration(){
 
     }
+     public void menu(){
+         System.out.println("seleccione una opcion: ");
+     }
 }
